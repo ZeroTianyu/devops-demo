@@ -14,6 +14,7 @@ public class DemoController {
 
     @RequestMapping("hello")
     public String hello() {
+        System.out.println("hello world!!!");
         return "hello world!!!";
     }
 }
